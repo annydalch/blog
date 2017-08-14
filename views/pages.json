@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Home",
+    "href": "/",
+    "file": "index.pug"
+  },
+  {
+    "title": "About",
+    "href": "/about",
+    "file": "about.pug"
+  },
+  {
+    "title": "Dummy Page",
+    "href": "/dummy",
+    "file": "dummypost.pug"
+  }
+]

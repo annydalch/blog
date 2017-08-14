@@ -1,0 +1,15 @@
+extends page.pug
+
+block content
+  div(class= ["container", "foobar"])
+    block blogcontent
+    div(class= ["blog-post-navigation-wrapper", "row"])
+      div(class=["col"])
+        if newer
+          a(href=newer.url, class=["blog-nav-link", "blog-newer-link"]).
+            << Newer
+      div(class=["col-6"])
+      div(class=["col"])
+        if older
+          a(href=older.url, class=["blog-nav-link", "blog-older-link"]).
+            Older >>
