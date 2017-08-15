@@ -7,6 +7,7 @@ const pug = require('pug')
 let pages = null
 let mainStyle = null
 let blogPages = null
+let backwardsBlogPages = null
 let nPages = 0
 
 let viewPath = path.join(__dirname, '..', 'views')
@@ -22,7 +23,6 @@ fs.readFile(path.join(viewPath, 'blogposts.json'), (err, text) => {
   if (err) throw err
   blogPages = JSON.parse(text)
   nPages = blogPages.length
-  console.log(`nPages is ${nPages}`)
   for (let i = 0; i < nPages; i++) {
     let page = blogPages[i]
     page.index = i
@@ -34,6 +34,7 @@ fs.readFile(path.join(viewPath, 'blogposts.json'), (err, text) => {
     }
     page.compiled = pug.compileFile(path.join(viewPath, page.file))
   }
+  backwardsBlogPages = blogPages.slice().reverse()
 })
 
 fs.readFile(path.join(viewPath, 'pages.json'), (err, text) => {
@@ -73,7 +74,7 @@ let buildConfig = (req, activePage, page) => {
     config.pages = pages
   }
   if (blogPages != null) {
-    config.blogPages = blogPages.reverse()
+    config.blogPages = backwardsBlogPages
   }
   if (page) {
     config.newer = page.newer
