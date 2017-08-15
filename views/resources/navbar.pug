@@ -3,3 +3,8 @@ nav(class=["navbar", "navbar-dark", "bg-dark", "fixed-top", "navbar-expand-md"])
     each page in pages
       li(class=["nav-item"])
         a(href=page.href, class=["nav-link"])= page.title
+    li(class=["dropdown", "nav-item"])
+      a(href="#", class=["dropdown-toggle", "nav-link"], data-toggle="dropdown", role="button", aria-haspopup) Posts
+      div(class="dropdown-menu")
+        each post in blogPages
+          a(href="/blog/" + post.index, class="dropdown-item")= post.title

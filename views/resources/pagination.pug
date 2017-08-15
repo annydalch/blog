@@ -1,0 +1,14 @@
+nav(aria-label="Next and Previous blog posts")
+  ul(class="pagination")
+    if newer
+      li(class="page-item")
+        a(href="/blog/" + newer.index, class="page-link", aria-label="Newer") << Newer
+    else
+      li(class=["page-item", "disabled"])
+        a(href="#", class="page-link", aria-label="No newer post") << Newer
+    if older
+      li(class="page-item")
+        a(href="/blog/" + older.index, class="page-link", aria-label="Older") Older >>
+    else
+      li(class=["page-item", "disabled"])
+        a(href="#", class="page-link", aria-label="No older post") Older >>
