@@ -12,7 +12,7 @@ let nPages = 0
 
 let viewPath = path.join(__dirname, '..', 'views')
 
-// let about = pug.compileFile(path.join(viewPath, 'about.pug'))
+let about = pug.compileFile(path.join(viewPath, 'about.pug'))
 
 fs.readFile(path.join(viewPath, 'style', 'main.css'), (err, text) => {
   if (err) throw err
@@ -47,9 +47,9 @@ module.exports = (app) => {
     res.redirect('/blog/' + (nPages - 1))
   })
 
-  /* app.get('/about', (req, res) => {
+  app.get('/about', (req, res) => {
     res.send(about(buildConfig(req, 'About')))
-  }) */
+  })
 
   app.get('/style/main.css', (req, res) => {
     res.type('css')

@@ -1,27 +1,7 @@
 [
   {
-    "title": "Dummy Post",
-    "date": "20170814T231342Z",
-    "file": "dummypost.pug"
-  },
-  {
-    "title": "Dummy Post 2",
-    "date": "20170814T231342Z",
-    "file": "dummypost.pug"
-  },
-  {
-    "title": "Dummy Post 3",
-    "date": "20170814T231342Z",
-    "file": "dummypost.pug"
-  },
-  {
-    "title": "Dummy Post 4",
-    "date": "20170814T231342Z",
-    "file": "dummypost.pug"
-  },
-  {
-    "title": "Dummy Post 5",
-    "date": "20170814T231342Z",
-    "file": "dummypost.pug"
+    "title": "Pre-departure",
+    "date": "20170815",
+    "file": "20170815.pug"
   }
 ]
