@@ -1,7 +1,12 @@
 [
-  {
-    "title": "Pre-departure",
-    "date": "20170815",
-    "file": "20170815.pug"
-  }
+    {
+        "title": "Pre-departure",
+        "date": "20170815",
+        "file": "20170815.pug"
+    },
+    {
+        "title": "Arrival Orientation",
+        "date": "20170818",
+        "file": "20170818.pug"
+    }
 ]
