@@ -80,6 +80,7 @@ let buildConfig = (req, activePage, page) => {
     config.newer = page.newer
     config.older = page.older
     config.title = page.title
+    config.date = page.date
   }
   config.activePage = activePage
   return config

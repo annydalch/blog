@@ -3,5 +3,7 @@ extends page.pug
 block content
   div(class= ["container"])
     h1= title
+    -let postDate = new Date(Date.parse(date))
+    h4= postDate.toDateString()
     block blogcontent
     include pagination.pug
