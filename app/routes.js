@@ -44,7 +44,9 @@ fs.readFile(path.join(viewPath, 'pages.json'), (err, text) => {
 
 module.exports = (app) => {
   app.get('/', (req, res) => {
-    res.redirect('/blog/' + (nPages - 1))
+    let page = blogPages[blogPages.length - 1]
+    let config = buildConfig(req, null, page)
+    res.send(page.compiled(config))
   })
 
   app.get('/about', (req, res) => {
@@ -60,6 +62,8 @@ module.exports = (app) => {
     let i = parseInt(req.params.index)
     if (i >= nPages) {
       res.sendStatus(404)
+    } else if (i === (blogPages.length - 1)) {
+      res.redirect('/')
     } else {
       let page = blogPages[i]
       let config = buildConfig(req, null, page)
