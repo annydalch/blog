@@ -58,5 +58,10 @@
         "title": "My first post as an adult",
         "date": "2017-12-01",
         "file": "20171201.pug"
+    },
+    {
+        "title": "My trip to Göteborg",
+        "date": "2017-12-11",
+        "file": "20171211.pug"
     }
 ]
