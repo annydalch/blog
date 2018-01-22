@@ -73,5 +73,10 @@
         "title": "Christmas",
         "date": "2017-12-27",
         "file": "20171227.pug"
+    },
+    {
+        "title": "The new year",
+        "date": "2018-01-22",
+        "file": "20180122.pug"
     }
 ]
