@@ -78,5 +78,10 @@
         "title": "The new year",
         "date": "2018-01-22",
         "file": "20180122.pug"
+    },
+    {
+        "title": "Sportlov",
+        "date": "2018-03-01",
+        "file": "20180301.pug"
     }
 ]
