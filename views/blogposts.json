@@ -1,87 +1,92 @@
 [
-    {
-        "title": "Pre-departure",
-        "date": "2017-08-15",
-        "file": "20170815.pug"
-    },
-    {
-        "title": "Arrival orientation",
-        "date": "2017-08-18",
-        "file": "20170818.pug"
-    },
-    {
-        "title": "New home",
-        "date": "2017-08-20",
-        "file": "20170820.pug"
-    },
-    {
-        "title": "On Swedish food",
-        "date": "2017-09-02",
-        "file": "20170902.pug"
-    },
-    {
-        "title": "Flea Markets, film, and inability to think of a third thing that starts with 'f'",
-        "date": "2017-09-10",
-        "file": "20170910.pug"
-    },
-    {
-        "title": "Missed a few weeks",
-        "date": "2017-09-30",
-        "file": "20170930.pug"
-    },
-    {
-        "title": "The landscape of Stockholm",
-        "date": "2017-10-08",
-        "file": "20171008.pug"
-    },
-    {
-        "title": "Tea, non-translatable words, and exchange difficulties",
-        "date": "2017-10-22",
-        "file": "20171022.pug"
-    },
-    {
-        "title": "AGPSAOOTWMW",
-        "date": "2017-11-02",
-        "file": "20171102.pug"
-    },
-    {
-        "title": "Höstlov",
-        "date": "2017-11-04",
-        "file": "20171104.pug"
-    },
-    {
-        "title": "Complaints",
-        "date": "2017-11-17",
-        "file": "20171117.pug"
-    },
-    {
-        "title": "My first post as an adult",
-        "date": "2017-12-01",
-        "file": "20171201.pug"
-    },
-    {
-        "title": "My trip to Göteborg",
-        "date": "2017-12-11",
-        "file": "20171211.pug"
-    },
-    {
-        "title": "Tunez",
-        "date": "2017-12-13",
-        "file": "20171213.pug"
-    },
-    {
-        "title": "Christmas",
-        "date": "2017-12-27",
-        "file": "20171227.pug"
-    },
-    {
-        "title": "The new year",
-        "date": "2018-01-22",
-        "file": "20180122.pug"
-    },
-    {
-        "title": "Sportlov",
-        "date": "2018-03-01",
-        "file": "20180301.pug"
-    }
+  {
+    "title": "Pre-departure",
+    "date": "2017-08-15",
+    "file": "20170815.pug"
+  },
+  {
+    "title": "Arrival orientation",
+    "date": "2017-08-18",
+    "file": "20170818.pug"
+  },
+  {
+    "title": "New home",
+    "date": "2017-08-20",
+    "file": "20170820.pug"
+  },
+  {
+    "title": "On Swedish food",
+    "date": "2017-09-02",
+    "file": "20170902.pug"
+  },
+  {
+    "title": "Flea Markets, film, and inability to think of a third thing that starts with 'f'",
+    "date": "2017-09-10",
+    "file": "20170910.pug"
+  },
+  {
+    "title": "Missed a few weeks",
+    "date": "2017-09-30",
+    "file": "20170930.pug"
+  },
+  {
+    "title": "The landscape of Stockholm",
+    "date": "2017-10-08",
+    "file": "20171008.pug"
+  },
+  {
+    "title": "Tea, non-translatable words, and exchange difficulties",
+    "date": "2017-10-22",
+    "file": "20171022.pug"
+  },
+  {
+    "title": "AGPSAOOTWMW",
+    "date": "2017-11-02",
+    "file": "20171102.pug"
+  },
+  {
+    "title": "Höstlov",
+    "date": "2017-11-04",
+    "file": "20171104.pug"
+  },
+  {
+    "title": "Complaints",
+    "date": "2017-11-17",
+    "file": "20171117.pug"
+  },
+  {
+    "title": "My first post as an adult",
+    "date": "2017-12-01",
+    "file": "20171201.pug"
+  },
+  {
+    "title": "My trip to Göteborg",
+    "date": "2017-12-11",
+    "file": "20171211.pug"
+  },
+  {
+    "title": "Tunez",
+    "date": "2017-12-13",
+    "file": "20171213.pug"
+  },
+  {
+    "title": "Christmas",
+    "date": "2017-12-27",
+    "file": "20171227.pug"
+  },
+  {
+    "title": "The new year",
+    "date": "2018-01-22",
+    "file": "20180122.pug"
+  },
+  {
+    "title": "Sportlov",
+    "date": "2018-03-01",
+    "file": "20180301.pug"
+  },
+  {
+    "title": "Spontaneity",
+    "date": "2018-03-11",
+    "file": "20180311.pug"
+  }
 ]
