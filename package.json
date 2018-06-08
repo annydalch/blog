@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
@@ -15,12 +15,12 @@
     ]
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^11.0.1"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.16.3",
     "jstransformer-markdown-it": "^2.0.0",
-    "morgan": "^1.8.2",
+    "morgan": "^1.9.0",
     "pug": "^2.0.0-rc.3"
   }
 }
